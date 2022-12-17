@@ -17,7 +17,7 @@ It performed worse. First I tried creating only one column, containing the year,
 
 ## Hyper parameter tuning
 ### How much better did your model preform after trying different hyper parameters?
-It did better, going from a 1.74 Kaggle score to a 1.79 Kaggle score
+It did better, going from a 1.74 Kaggle score to a 1.79 Kaggle score. The hyperparameters that I modified were related to the neural network part of the ensemble model: I increased the number of times that the neural network was trained (epochs), as well as the size and number of hidden layers, I also reduced the learning rate and increased the time of training from 10 to 15 minutes. All of these changes were aimed at allowing the neural network to better fit the training dataset, the efforts were successful because they increased the model's score and at the same time didn't overfit the data, increasing performance in the test dataset as well.
 
 ### If you were given more time with this dataset, where do you think you would spend more time?
 Trying to come with new feature engineering techniques, trying to build upon what was learned and using this step to increment the Kaggle score
